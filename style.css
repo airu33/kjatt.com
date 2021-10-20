@@ -7,23 +7,48 @@
 	vertical-align: baseline;
 }
 
-
-
 h1 {
     font-size: 30px;
     text-align: center;
+    color: #4caf50 ;
 }
+
 p {
+    color:#4caf50;
     font-size: 18px;
     padding: 2px;
     margin: 10px;
     max-width: 1000px;
 }
 
+body {
+   background-color: rgb(39, 38, 38);
+}
+
+.ftext {
+    color:rgb(39, 38, 38);
+}
 
 @media all and (max-width: 600px) {
     * {
         width: 100%;
         height: auto;
-        }
     }
+}
+
+
+
+
+
+
+/*Alternative styles*/
+/*body*/
+    /*background: rgb(55,0,62);
+        background: -moz-linear-gradient(225deg, rgba(55,0,62,1) 0%, rgba(0,40,48,1) 100%);
+        background: -webkit-linear-gradient(225deg, rgba(55,0,62,1) 0%, rgba(0,40,48,1) 100%);
+        background: linear-gradient(225deg, rgba(55,0,62,1) 0%, rgba(0,40,48,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37003e",endColorstr="#002830",GradientType=1);    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;*/
