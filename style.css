@@ -5,16 +5,15 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    color:#4caf50;
 }
 
 h1 {
     font-size: 30px;
     text-align: center;
-    color: #4caf50 ;
 }
 
 p {
-    color:#4caf50;
     font-size: 18px;
     padding: 2px;
     margin: 10px;
@@ -27,6 +26,20 @@ body {
 
 .ftext {
     color:rgb(39, 38, 38);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column; 
+    
+
 }
 
 @media all and (max-width: 600px) {
