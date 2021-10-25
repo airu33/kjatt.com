@@ -80,7 +80,7 @@ main > div > p {
 }
 
 .git-logo {
-    width: 100px;
+    width: 95px;
     height: 45px;
 }
 
@@ -91,10 +91,17 @@ main > div > p {
     height:100px; 
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 600px) {
     img, p, h1, a, header, footer, .header-text, .center, .flex-column, .flex-row{
-        width: 140px;
+        /* width: 140px; */
         height: auto;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    .git-logo {
+        max-width: 80px;
+        max-height: auto;
     }
 }
 
