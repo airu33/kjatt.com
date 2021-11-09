@@ -80,8 +80,8 @@ main > div > p {
 }
 
 .git-logo {
-    width: 90px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
 }
 
 #footer {
@@ -92,14 +92,14 @@ main > div > p {
 }
 
 @media all and (max-width: 600px) {
-    p, h1, a, header, .header-text, .center {
+    p, h1, a, header, .header-text, .center, .flex-row, .center {
         width: auto ;
         height: auto;
     }
 }
 
 @media  screen and (max-width:600px) {
-    .git-logo {
+    .git-logo{
         max-width: 80px;
         max-height: auto;
     }
