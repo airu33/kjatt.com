@@ -89,7 +89,7 @@ main > div > p {
     position:fixed;
     bottom: 0;
     width:100%;
-    height:100px; 
+    height:80px; 
 }
 
 @media all and (max-width: 600px) {
