@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="dropdownMenu.js"></script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,13 @@
     </head>
     <body class="flex-column">
         <header class="flex-row center" >
+            <div class="Dropdown">
+                <button onclick="Dropmen()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                </div>
+            </div>
             <h1 class="header-text">Kjatt.com under construction</h1>
         </header>
         <main class="flex-column center main-text ">

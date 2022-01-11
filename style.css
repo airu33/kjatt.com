@@ -1,3 +1,5 @@
+/* Gustav Carlsson */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -46,6 +48,41 @@ main > div > p {
     font-size: 25px;
 }
 
+.dropbtn {
+    background-color: rgb(39, 38, 38);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    color: #337435
+}
+
+.Dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: rgb(54, 54, 54);
+    color: #4caf50;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {color: #337435}
+
+.show {display:block;}
 
 .Ftxt {
     color: rgb(39, 38, 38);
