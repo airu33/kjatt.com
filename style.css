@@ -14,6 +14,7 @@
 h1 {
     font-size: 30px;
     text-align: center;
+    padding-left: 10px; 
 }
 
 p {
@@ -46,6 +47,9 @@ footer {
 
 main > div > p {
     font-size: 25px;
+}
+main > div > a {
+    margin-left: 10px;
 }
 
 .dropbtn {
@@ -97,6 +101,16 @@ main > div > p {
     align-items: center;
 }
 
+.Cv {
+    font-size: 15px;
+    text-align: left;
+}
+
+.Cv-Main{
+    font-size: 20px;
+    text-align: left;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -105,12 +119,23 @@ main > div > p {
 
 .flex-column {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+}
+
+.left {
+    justify-content: left;
+    align-items: left;
 }
 
 .main-text {
     margin: 2% auto;
-    margin-top: 40px;   
+    margin-top: 40px;
+    margin-bottom: 80px;  
+}
+
+.main-port-text {
+    margin-top: 5cm;
+    margin-left: 2cm;
 }
 
 .header-text {
@@ -122,11 +147,20 @@ main > div > p {
     height: 60px;
 }
 
+.port-image {
+    width: 350px;
+    height: 350px;
+}
+
 #footer {
     position:fixed;
     bottom: 0;
     width:100%;
     height:80px; 
+}
+
+#mail{
+    margin-bottom: 25px;
 }
 
 @media all and (max-width: 600px) {
